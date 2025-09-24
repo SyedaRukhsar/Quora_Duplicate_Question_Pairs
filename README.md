@@ -1,6 +1,3 @@
-Great 👍 agar tum dataset size aur accuracy results bhi dikhado to README kaafi professional aur clear lagega. Maine woh portions add kar diye hain jo tumne bole:
-
----
 
 # Quora Duplicate Question Pairs
 
@@ -37,11 +34,11 @@ This repository contains experiments and implementations on the **Quora Duplicat
 
 | Approach                                   | Dataset Size | Accuracy |
 | ------------------------------------------ | ------------ | -------- |
-| BoW + Basic Features                       | 50k          | \~80%    |
-| BoW + Preprocessing + Advanced Features    | 100k         | \~80.2%  |
-| TF-IDF + Basic Features                    | 100k         | \~79.9%  |
-| TF-IDF + Preprocessing + Advanced Features | 100k         | \~80%+   |
-| Word2Vec + BiLSTM (Deep Learning)          | 400k         | \~83%+   |
+| BoW + Basic Features                       | 50k          | 78.68%    |
+| BoW + Preprocessing + Advanced Features    | 100k         | 80.78%  |
+| TF-IDF + Basic Features                    | 100k         | 79.31%  |
+| TF-IDF + Preprocessing + Advanced Features | 100k         | 80.57%   |
+| Word2Vec + BiLSTM (Deep Learning)          | 400k         | 77.05%   |
 
 *(Note: Accuracy may slightly vary depending on random states and hyperparameters.)*
 
