@@ -29,6 +29,11 @@ This repository contains experiments and implementations on the **Quora Duplicat
   Built a deep learning model using **Word2Vec embeddings** and **BiLSTM layers** for semantic understanding of questions.
 
   * Trained on **400k data**.
+ 
+ * **`glove-embedding-siamese-bilstm.ipynb`**
+  Built a deep learning model using **glove embeddings** and **siamese BiLSTM** for semantic understanding of questions.
+
+  * Trained on **442k data**.
 
 ## Accuracy Comparison
 
@@ -39,6 +44,7 @@ This repository contains experiments and implementations on the **Quora Duplicat
 | TF-IDF + Basic Features                    | 100k         | 79.31%  |
 | TF-IDF + Preprocessing + Advanced Features | 100k         | 80.57%   |
 | Word2Vec + BiLSTM (Deep Learning)          | 400k         | 77.05%   |
+| GloVe + Siamese BiLSTM (Deep Learning)     | 442k         | 80.43%   |
 
 *(Note: Accuracy may slightly vary depending on random states and hyperparameters.)*
 
