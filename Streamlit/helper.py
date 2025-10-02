@@ -22,7 +22,7 @@ def load_tokenizer(path="Streamlit/tokenizer.pkl"):
     return tokenizer
 
 # Model load function
-def load_model(path="siamese_bilstm_final.keras"):
+def load_model(path="Streamlit/siamese_bilstm_final.keras"):
     model = keras.models.load_model(path, custom_objects={"AbsLayer": AbsLayer})
     return model
 
@@ -96,7 +96,7 @@ max_len = 30
 
 # Initialize global objects
 tokenizer = load_tokenizer("Streamlit/tokenizer.pkl")
-model = load_model("siamese_bilstm_final.keras")
+model = load_model("Streamlit/siamese_bilstm_final.keras")
 
 
 
