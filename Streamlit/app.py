@@ -1,7 +1,7 @@
 import streamlit as st
 import helper
 
-st.header("🔍 Quora Duplicate Question Detector (DL Model)")
+st.header("Quora Duplicate Question Detector")
 
 q1 = st.text_input("Enter Question 1")
 q2 = st.text_input("Enter Question 2")
