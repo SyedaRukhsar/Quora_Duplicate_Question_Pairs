@@ -16,7 +16,7 @@ class AbsLayer(tf.keras.layers.Layer):
 
 
 @st.cache_data
-def load_tokenizer(path="tokenizer.pkl"):
+def load_tokenizer(path="Streamlit/tokenizer.pkl"):
     with open(path, "rb") as f:
         tokenizer = pickle.load(f)
     return tokenizer
@@ -95,7 +95,7 @@ def preprocess(q):
 max_len = 30
 
 # Initialize global objects
-tokenizer = load_tokenizer("tokenizer.pkl")
+tokenizer = load_tokenizer("Streamlit/tokenizer.pkl")
 model = load_model("siamese_bilstm_final.keras")
 
 
