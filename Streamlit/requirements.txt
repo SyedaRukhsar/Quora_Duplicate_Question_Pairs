@@ -3,3 +3,4 @@ tensorflow
 numpy
 pandas
 beautifulsoup4
+pickle
